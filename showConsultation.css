@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:beige;
+    background-image:url("../image/showDataImg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:arial;
+}
+.content h1{
+    color:maroon;
+    font-size:35px;
+    padding-left:680px;
+    padding-bottom:30px;
+}
+nav{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+}
+.ul1{
+    list-style:none;
+    padding:0 0 0 75%;
+    margin:0 0 0 250px;
+}
+.li1 a{
+    text-decoration:none;
+    color:white;
+    display:block;
+
+    width:100px;
+    padding:20px 15px;
+    text-align:center;
+}
+.li1{
+    float:left;
+    
+}
+.brandName{
+    padding:20px 100px;
+    position:absolute;
+}
+.brandName a{
+    text-decoration:none;
+    color:burlywood;
+}
+.logoImg{
+    width:60px;
+    height:50px;
+    position:absolute;
+    padding:4px 20px;
+}
+.li1 a:hover{
+    color:green;
+}
+footer{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+    margin-top:36.6%;
+}
+.f_data{
+    color:white;
+    padding:15px 30px;
+    float:left;
+    list-style:none;
+}
+.cright{
+    color:white;
+    font-size:13px;
+    padding:15px 0 0 90%;
+    position:absolute
+}
+.content{
+    margin:15px;
+}
+.inputs{
+    padding:5px 0 0 0%;
+}
+.input1{
+    padding-top:30px;
+}
+.name{
+    border:0px;
+    border-radius:6px;
+    width:180px;
+    height:35px;
+    direction:rtl;
+    padding-right:15px;
+    font-size:13.5px;
+}
+.select{
+    width:170px;
+    height:40px;
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    padding-right:7px;
+    font-size:15px;
+    direction:rtl;
+}
+.btn{
+    padding:0px;
+    position:absolute;
+    right:600px;
+    top:370px;
+}
+.btn1{
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    font-size:17px;
+    width:150px;
+    height:40px;
+}
+.btn1:hover{
+    border:0px solid black;
+    border-radius:6px;
+    background-color:white;
+    color:black;
+    font-size:17px;
+    width:150px;
+    height:40px;
+}
+table{
+    width:100%;
+    border:2px solid lavender;
+    border-spacing:0px;
+    direction:rtl;
+}
+table td{
+    border:1px solid lavender;
+    padding:15px;
+    font-size:30px;
+    background:sienna;
+    color:white;
+}
+table th{
+    border:1px solid lavender;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    background:ghostwhite;
+}

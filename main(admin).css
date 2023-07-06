@@ -1,0 +1,222 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:beige;
+    background-image:url("../image/mainPageImg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:arial;
+}
+
+nav{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+}
+.ul1{
+    list-style:none;
+    padding:0 0 0 75%;
+    margin:0 0 0 250px;
+}
+.li1 a{
+    text-decoration:none;
+    color:white;
+    display:block;
+
+    width:100px;
+    padding:20px 15px;
+    text-align:center;
+}
+.li1{
+    float:left;
+    
+}
+.brandName{
+    padding:20px 100px;
+    position:absolute;
+}
+.brandName a{
+    text-decoration:none;
+    color:burlywood;
+}
+.logoImg{
+    width:60px;
+    height:50px;
+    position:absolute;
+    padding:4px 20px;
+}
+.li1 a:hover{
+    color:green;
+}
+footer{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+    position:absolute;
+    margin-top:40.5%;
+}
+.f_data{
+    color:white;
+    padding:15px 30px;
+    float:left;
+    list-style:none;
+}
+.cright{
+    position:absolute;
+    color:white;
+    font-size:13px;
+    padding:15px 0 0 90%;
+}
+.content{
+    position:absolute;
+    padding:100px 5px;
+}
+.aboutBtn{
+   
+
+    padding:50px;
+}
+.select1{
+    position:absolute;
+    left:1100%;
+    bottom:20%;
+}
+.select2{
+    position:absolute;
+    left:1100%;
+    bottom:-50%;
+}
+.select3{
+    position:absolute;
+    left:59%;
+}
+.select4{
+    position:absolute;
+    left:85%;
+    top:35%;
+}
+.select5{
+    position:absolute;
+    left:110%;
+}
+.btn1{
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    font-size:29px;
+    width:190px;
+    height:50px;
+}
+.btn1:hover{
+    border:0px solid black;
+    border-radius:6px;
+    background-color:white;
+    color:black;
+    font-size:29px;
+    width:190px;
+    height:50px;
+}
+.aboutBtn2{
+    position:absolute;
+    left:415%;
+}
+.showData2{
+    position:absolute;
+    left:415%;
+    top:131%;
+}
+.showData2 .btn1{
+    position:absolute;
+    width:460px;
+    height:55px;
+    font-size:38px;
+}
+.aboutBtn2 .btn1{
+    position:absolute;
+    width:460px;
+    height:55px;
+    font-size:38px;
+}
+.aboutBtn3{
+    position:absolute;
+
+}
+.select{
+    width:280px;
+    height:70px;
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    padding-left:5px;
+    font-size:38px;
+    direction:rtl;
+}
+.check{
+    width:15px;
+    height:15px;
+}
+.aboutBtn .btn1{
+    width:190px;
+    height:50px;
+    font-size:30px;
+}
+.nbtn1{
+    position:absolute;
+    left:1000%;
+    top:180%;
+}
+.lab11{
+    position:absolute;
+    right:100px;
+    top:10px;
+}
+.center11{
+    position:absolute;
+    right:100px;
+    top:10px;
+}
+.docBtn{
+    position:absolute;
+    left:60%;
+    top:280%;
+}
+.depBtn{
+    position:absolute;
+    left:60%;
+    top:-210%
+}
+.hosBtn{
+    position:absolute;
+    left:60%;
+    top:-390%;
+}
+.radioBtn{
+    position:absolute;
+    left:105%;
+    top:15px;
+}
+.medCenBtn{
+    position:absolute;
+    left:60%;
+    top:480%
+}
+.labBtn{
+    position:absolute;
+    left:60%;
+    top:680%;
+}
+.centerBtn{
+    position:absolute;
+    left:90%;
+    top:855%;
+}
+.medcen{
+    position:absolute;
+    right:100px;
+    top:10px;
+}
+.clientBtn{
+    margin:60%;
+}

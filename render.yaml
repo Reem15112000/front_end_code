@@ -1,0 +1,38 @@
+databases:
+  - name: hospital
+    databaseName: hospital
+    user: hospital
+    plan: free
+
+services:
+  - type: web
+    name: hospital
+    env: python
+    plan: free
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn hospital.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: hospital
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
+      - key: ALLOWED_HOSTS
+        value: ".render.com"
+      - key: DEBUG
+        value: "False"
+      - key: STATIC_URL
+        value: "/static/"
+      - key: STATIC_ROOT
+        value: "static/"
+      - key: MEDIA_URL
+        value: "/media/"
+      - key: MEDIA_ROOT
+        value: "media/"
+      - key: PROJ_ID
+        value: "6425a0c72e7d63bb50c8"
+      - key: API_KEY
+        value: "12955eac217643e9f043f8286521c5fc6939aaab26a2b69633cc4266d8201cb32b9bd6571541b0929962fa330abab2e7f88035aa27abc3599719857a21ef2f7e172c34c2d8ec5b9c2dd90e43ff3353bcafb16c654d7a320fc17f7de1ee97a3a87ed26891e2f2bac8897efeb197a1dd598b989378435f29f9b4700ba1d1658d16"

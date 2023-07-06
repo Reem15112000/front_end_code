@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:beige;
+    background-image:url("../image/addDepDocImg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:arial;
+}
+
+nav{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+}
+.ul1{
+    list-style:none;
+    padding:0 0 0 75%;
+    margin:0 0 0 250px;
+}
+.li1 a{
+    text-decoration:none;
+    color:white;
+    display:block;
+
+    width:100px;
+    padding:20px 15px;
+    text-align:center;
+}
+.li1{
+    float:left;
+    
+}
+.brandName{
+    padding:20px 100px;
+    position:absolute;
+}
+.brandName a{
+    text-decoration:none;
+    color:burlywood;
+}
+.logoImg{
+    width:60px;
+    height:50px;
+    position:absolute;
+    padding:4px 20px;
+}
+.li1 a:hover{
+    color:green;
+}
+footer{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+    position:absolute;
+    margin-top:40.5%;
+}
+.f_data{
+    color:white;
+    padding:15px 30px;
+    float:left;
+    list-style:none;
+}
+.cright{
+    color:white;
+    font-size:13px;
+    padding:15px 0 0 90%;
+    position:absolute
+}
+.content{
+    position:absolute;
+    right:80px;
+    top:190px;
+}
+.inputs{
+    padding:5px 0 0 0%;
+}
+.input1{
+    padding-top:30px;
+}
+.name{
+    border:0px;
+    border-radius:6px;
+    width:170px;
+    height:45px;
+    direction:rtl;
+    padding-right:15px;
+    font-size:20.5px;
+}
+.content h1{
+    position:absolute;
+    color:maroon;
+    font-size:35px;
+    bottom:120%;
+    right:320%;
+    width:177px;
+}
+.select{
+    width:170px;
+    height:50px;
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    padding-right:7px;
+    font-size:20px;
+    direction:rtl;
+}
+.btn{
+    padding:0px;
+    position:absolute;
+    right:600px;
+    top:300px;
+}
+.btn1{
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    font-size:25px;
+    width:170px;
+    height:60px;
+}
+.btn1:hover{
+    border:0px solid black;
+    border-radius:6px;
+    background-color:white;
+    color:black;
+    font-size:25px;
+    width:170px;
+    height:60px;
+}

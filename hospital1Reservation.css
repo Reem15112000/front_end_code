@@ -1,0 +1,157 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:beige;
+    background-image:url("../image/hospitalImg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:arial;
+}
+
+nav{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+}
+.ul1{
+    list-style:none;
+    padding:0 0 0 75%;
+    margin:0 0 0 250px;
+}
+.li1 a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    width:100px;
+    padding:20px 15px;
+    text-align:center;
+}
+.li1{
+    float:left;
+    
+}
+.brandName{
+    padding:20px 100px;
+    position:absolute;
+}
+.brandName a{
+    text-decoration:none;
+    color:burlywood;
+}
+.logoImg{
+    width:60px;
+    height:50px;
+    position:absolute;
+    padding:4px 20px;
+}
+.li1 a:hover{
+    color:green;
+}
+footer{
+    background-color:black;
+    width:100%;
+    overflow:hidden;
+    position:absolute;
+    margin-top:48.5%;
+}
+.f_data{
+    color:white;
+    padding:15px 30px;
+    float:left;
+    list-style:none;
+}
+.cright{
+    color:white;
+    font-size:13px;
+    padding:15px 0 0 90%;
+    position:absolute
+}
+.content{
+    position:absolute;
+    padding:50px 0px;
+}
+.content h1{
+    color:maroon;
+    font-size:35px;
+    padding-left:630px;
+    padding-bottom:30px;
+}
+.inputs{
+    padding:57px 0 0 150%;
+}
+.input1{
+    padding-top:34px;
+}
+.name{
+    border:0px;
+    border-radius:6px;
+    width:170px;
+    height:45px;
+    direction:rtl;
+    padding-right:15px;
+    font-size:20.5px;
+}
+.select{
+    width:180px;
+    height:50px;
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    padding-right:7px;
+    font-size:20px;
+    direction:rtl;
+}
+.btn{
+    padding:52px;
+    position:absolute;
+    right:-290px;
+    bottom:-48%
+}
+.btn1{
+    border:0px;
+    border-radius:6px;
+    background-color:sienna;
+    color:whitesmoke;
+    font-size:25px;
+    width:170px;
+    height:60px;
+}
+.btn1:hover{
+    border:0px solid black;
+    border-radius:6px;
+    background-color:white;
+    color:black;
+    font-size:25px;
+    width:170px;
+    height:60px;
+}
+.img2{
+    position:absolute;
+    width:190px;
+    height:190px;
+    left:350px;
+    bottom:25px;
+}
+.img3{
+    position:absolute;
+    width:190px;
+    height:190px;
+    left:50px;
+    bottom:25px;
+}
+.img4{
+    position:absolute;
+    width:190px;
+    height:190px;
+    left:160px;
+    bottom:-220px
+}
+.heading{
+    position:absolute;
+    right:-80%;
+    top:30%;
+    color:maroon;
+    font-weight:bold;
+    font-size:30px;
+}
